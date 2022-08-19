@@ -1,0 +1,129 @@
+body {
+    overflow-x: hidden;
+}
+.backgroundImage{
+    background-size:cover;
+    background-repeat: no-repeat;
+    object-fit:contain;
+    height: 100vh;
+    padding: 4em 6em;
+    background-image: url(../../shared/images/bgImage.svg);
+}
+.logoMenu{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.menubutton{
+    background: #0D237D;
+    border-radius: 4px;
+    display: flex;
+    width: fit-content;
+    padding:0.5em;
+    cursor: pointer;
+}
+.menu{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    padding-left: 0.5em;
+    padding-right: 1em;
+}
+.boxparent{
+    display: flex;
+    justify-content: center;
+    margin-top: 6em;
+}
+.box{
+    background-color: white;
+    width: fit-content;
+    padding: 3em 5em;
+    border-radius: 7px;
+}
+.titik{
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.online{
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 41px;
+    color: #0D237D;
+}
+.open{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 26px;
+    color: #4D4E54;   
+}
+.btn{
+    background: #78B844;
+    border-radius: 4px;
+    padding: 1em;
+    width: 100%;
+    cursor: pointer;
+    border-width: 0px;
+    margin-top: 3em;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #FFFFFF; 
+}
+.btnoutline{
+    background: white;
+    border-radius: 4px;
+    border-color: #0D237D;
+    padding: 1em;
+    width: 100%;
+    cursor: pointer;
+    border-width: 1px;
+    margin-top: 1em;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #0D237D; 
+    
+}
+.borderDiv{
+    display: flex;
+    margin-top: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+.border{
+    width: 46%;
+    border-bottom: 0.4px solid #ACADB1;    
+}
+.or{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 19px;
+    color: #ACADB1;
+}
+.already{
+    text-align: center;
+    padding-top: 1.5em;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 22px;
+    color: #4D4E54;
+    cursor: pointer;
+}
+.login{
+    color: #78B844;
+
+}

@@ -1,0 +1,43 @@
+body {
+    overflow-x: hidden;
+}
+.logo{
+    padding-top: 0.5em;
+}
+.logoMenu{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 0.5em 4em;
+}
+.menubutton{
+    background: #78B844;
+    border-radius: 4px;
+    display: flex;
+    width: fit-content;
+    padding:0.5em;
+    cursor: pointer;
+}
+.menu{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    padding-left: 0.5em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+}
+.menuicon{
+    color: white;
+    font-size: 1.2em;
+    padding-top: 0.2em;
+}
+.backgroundImage{
+    background-size:cover;
+    background-repeat: no-repeat;
+    object-fit:contain;
+    height: 100vh;
+    padding: 4em 6em;
+    background-image: url(../../shared/images/bluebg.svg);
+}
